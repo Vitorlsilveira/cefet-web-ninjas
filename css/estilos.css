@@ -1,0 +1,85 @@
+.logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+img:not(.logo), iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman';
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Helvetica';
+    font-size: 16px;
+    text-align: justify;
+    background-color:rgb(222, 222, 236);
+}
+
+.conteudo{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+strong{
+  background-color: deepskyblue;
+  color:#9e19cf;
+  font-size: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+strong ~ em{
+  font-size: 20px;
+}
+
+h1,h2{
+  color: blue;
+}
+/* unvisited link */
+a:link {
+    color: #70c293;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+a[href^="http"]{
+    background-image: url("../img/globo.png");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+.apagado{
+    opacity: 0.5;
+}
